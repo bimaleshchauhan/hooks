@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import UseRef from './hooks/useref/index';
+import ContextApi from './hooks/contextApi/index';
+import MemoApi from './hooks/usememo/index';
+import CallBackApi from './hooks/usecallback/index';
+import UseEffectFuction from './hooks/useeffect/index';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {/* <MemoApi /> */}
+       {/* <CallBackApi /> */}
+       <UseEffectFuction />
     </div>
   );
 }
